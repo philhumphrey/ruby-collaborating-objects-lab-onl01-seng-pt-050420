@@ -34,7 +34,9 @@ end
     self.create(name)
   end
   end
-  
+    def print_songs
+    @songs.each do |song|
+      puts song.name
 end
 
   

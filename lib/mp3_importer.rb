@@ -19,8 +19,7 @@ end
     files
   end
    
-  def import
-    files.each do |x| Song
+ 
     end 
  end
  end

@@ -19,12 +19,10 @@ end
     files
   end
    
-  # def import
-  #   files.each do |x| 
+  def import
+    files.each do |x| 
        
-   def import
-    files.each {|song| Song.new_by_filename(song)}
-  end    
+  
  end
    
    

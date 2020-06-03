@@ -51,3 +51,4 @@ if found_artist 
     new_artist             
     end           
     end 
+  end

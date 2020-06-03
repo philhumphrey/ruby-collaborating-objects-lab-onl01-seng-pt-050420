@@ -20,7 +20,7 @@ end
   end
    
   def import
-    files.each do |x| 
+    files.each do |x| Song
     end 
  end
  end

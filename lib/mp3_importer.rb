@@ -6,12 +6,18 @@ class MP3Importer
   @path = path
 end
  
- def files
-   @files = []
-   Dir.new(self.path).each {|x| x files << x.chomp 
-   (".mp3")}
-   files
-   
+# def files
+#   @files = []
+#   Dir.new(self.path).each {|x| x files << x.chomp 
+#   (".mp3")}
+#   files
+   def files
+    files = []
+    Dir.new(self.path).each do |file|
+      files << file if file.length > 4
+    end
+    files
+  end
    
  end
  end

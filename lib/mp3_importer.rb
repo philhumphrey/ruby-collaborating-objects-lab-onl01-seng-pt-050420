@@ -8,7 +8,7 @@ end
  
  def file 
    @file = []
-   
+   directory 
    
  
   def import

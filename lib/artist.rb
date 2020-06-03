@@ -17,7 +17,6 @@ end
  def add_song(song)
    @songs << song
   end
-  
  
   def self.find(name)
     @@all.find{|artists| artists.name}

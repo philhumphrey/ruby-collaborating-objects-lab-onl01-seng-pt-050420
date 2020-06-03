@@ -10,7 +10,7 @@ end
    @file = []
    Dir.new(self.path).each {|x| x files << x.chomp 
    (".mp3")}
-   @files
+   files
    
  end
  end

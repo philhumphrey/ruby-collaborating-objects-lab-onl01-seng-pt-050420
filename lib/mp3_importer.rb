@@ -8,7 +8,7 @@ end
  
  def file 
    @file = []
-   directory.new(se)
+   directory.new(self.path)
    
  
   def import

@@ -18,7 +18,7 @@ end
   end
   
   def self.find(name)
-    self.find{|artists| artists.name == name}
+    self.find{|artists| artists.name == name}(name)
   end
   
   def self.create(name)

@@ -8,7 +8,7 @@ end
  
  def file 
    @file = []
-   directory.new(self.path).each do |x| 
+   dir.new(self.path).each do |x| 
    files.chomp(".mp3")
  end
  end

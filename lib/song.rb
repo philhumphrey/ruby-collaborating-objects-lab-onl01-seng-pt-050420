@@ -4,4 +4,7 @@ class Song
   def initialize(name)
     @name = name
   end
+  
+  def new_file_name
+    
 end

@@ -20,7 +20,7 @@ end
   
  
   def self.find(name)
-    @@all.find(name){|artists| artists.name}
+    @@all.find{|artists| artists.name}
   end
   
   def self.create(name)

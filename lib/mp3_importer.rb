@@ -20,7 +20,8 @@ end
   end
    
    def import
-     files.each
+     files.each do |x| 
+       
  end
  end
    

@@ -10,5 +10,6 @@ end
    @file = []
    directory.new(self.path).each do |x| files
    
+   
  
   def import

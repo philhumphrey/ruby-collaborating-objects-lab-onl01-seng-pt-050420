@@ -10,6 +10,8 @@ end
    @file = []
    directory.new(self.path).each do |x| 
    files.chomp(.mp3")
+ end
+ end
    
    
  

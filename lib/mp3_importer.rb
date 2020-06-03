@@ -7,7 +7,7 @@ class MP3Importer
 end
  
  def files
-   @file = []
+   @files = []
    Dir.new(self.path).each {|x| x files << x.chomp 
    (".mp3")}
    files

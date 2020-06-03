@@ -25,8 +25,6 @@ end
    def import
     files.each {|song| Song.new_by_filename(song)}
   end    
-       
- end
  end
    
    

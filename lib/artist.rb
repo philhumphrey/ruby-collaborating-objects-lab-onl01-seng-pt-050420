@@ -28,7 +28,7 @@ end
   
   def self.find_or_create_by_name(name)
     if self.find(name)
-       self.artist.name
+       self.find
   else
     self.create
   end

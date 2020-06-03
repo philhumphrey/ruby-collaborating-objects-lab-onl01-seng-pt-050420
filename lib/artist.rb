@@ -20,21 +20,25 @@ end
    @songs << song
   end
   
-  def self.find(name)
-    @@all.self.find(name){|artists| artists.name == name}
-  end
   
-  def self.create(name)
-  artist = self.new(name)
-  artist
-  end
   
-  def self.find_or_create_by_name(name)
-    if self.find(name)
-       self.find(name)
-  else
-    self.create(name)
-  end
+  
+  
+  # def self.find(name)
+  #   @@all.self.find(name){|artists| artists.name == name}
+  # end
+  
+  # def self.create(name)
+  # artist = self.new(name)
+  # artist
+  # end
+  
+  # def self.find_or_create_by_name(name)
+  #   if self.find(name)
+  #     self.find(name)
+  # else
+  #   self.create(name)
+  # end
 end
 end
 

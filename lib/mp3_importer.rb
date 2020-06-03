@@ -6,10 +6,10 @@ class MP3Importer
   @path = path
 end
  
- def file 
+ def files
    @file = []
    dir.new(self.path).each do |x| 
-   file.chomp(".mp3")
+   files.chomp(".mp3")
  end
  end
  end
